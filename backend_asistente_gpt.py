@@ -5,7 +5,7 @@ import os
 os.environ["OPENAI_API_KEY"] ="API KEY de OPENAI"
  
  
-db_uri = 'mysql+pymysql://usuario:contraseña@host:puerto/namedatabase'
+db_uri = 'mysql+pymysql://testgpt:123@ip instancia:3306/cursogpt'
 db = SQLDatabase.from_uri(db_uri)
 print(db.get_usable_table_names())
  
